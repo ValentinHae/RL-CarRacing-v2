@@ -103,7 +103,7 @@ def generate_state_frame_stack_from_queue(deque):
 
 
 # Specify the saved model to load
-MODEL = 'model/trial_10.h5'
+MODEL = 'model/trial_500.h5'
 
 def run_game():
     env = gym.make('CarRacing-v2', render_mode="human") # Create the gym environment and the agent for the CarRacing-v2 env.
